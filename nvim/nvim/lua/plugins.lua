@@ -18,24 +18,23 @@ return require('packer').startup(function(use)
     	use 'hrsh7th/cmp-buffer'                            
     	use 'hrsh7th/vim-vsnip'
 	use {
-  'nvim-tree/nvim-tree.lua',
-    requires = {
-      'nvim-tree/nvim-web-devicons', -- optional, for file icons
-    },
- }
-use 'tpope/vim-commentary'  -- For commenting and uncommenting
-    use 'mattn/emmet-vim'      -- For Emmet support 
-use {'akinsho/bufferline.nvim', tag = "*", requires = 'nvim-tree/nvim-web-devicons'}
-
- use 'Mofiqul/dracula.nvim'
+  	'nvim-tree/nvim-tree.lua',
+ 	   requires = {
+      		'nvim-tree/nvim-web-devicons', -- optional, for file icons
+	   },
+	}
+	use 'tpope/vim-commentary'  -- For commenting and uncommenting
+	use 'mattn/emmet-vim'      -- For Emmet support 
+	use {'akinsho/bufferline.nvim', tag = "*", requires = 'nvim-tree/nvim-web-devicons'}
+ 	use 'Mofiqul/dracula.nvim'
 	use 'itchyny/lightline.vim'  -- Lightline.vim
     	use 'hsanson/vim-android'
 	use {
-	  'nvim-telescope/telescope.nvim', tag = '0.1.2',
-	-- or                            , branch = '0.1.x',
-  	requires = { {'nvim-lua/plenary.nvim'} }
-}
+	  'nvim-telescope/telescope.nvim', tag = '0.1.2',-- or, branch = '0.1.x',
+	  	requires = { {'nvim-lua/plenary.nvim'} }
+	}
 	use 'preservim/tagbar'
+
 end)
 
 
