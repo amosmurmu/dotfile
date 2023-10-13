@@ -23,7 +23,8 @@ return require('packer').startup(function(use)
       'nvim-tree/nvim-web-devicons', -- optional, for file icons
     },
  }
-
+use 'tpope/vim-commentary'  -- For commenting and uncommenting
+    use 'mattn/emmet-vim'      -- For Emmet support 
 use {'akinsho/bufferline.nvim', tag = "*", requires = 'nvim-tree/nvim-web-devicons'}
 
  use 'Mofiqul/dracula.nvim'
