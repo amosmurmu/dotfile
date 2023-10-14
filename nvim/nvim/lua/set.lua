@@ -29,6 +29,11 @@ vim.cmd("autocmd FileType html,xml EmmetInstall")
 -- Enable Emmet for other file types (e.g., JSX)
 vim.cmd("autocmd FileType jsx EmmetInstall")
 
+-- Change Emmet expansion keybinding to Tab
+vim.api.nvim_set_keymap('n', '<Tab>', '<Plug>(emmet-expand-abbr)', {})
+-- vim.api.nvim_set_keymap('i', '<Tab>', '<Plug>(emmet-expand-abbr)', {})
+-- For Lua (init.lua)
+vim.g.user_emmet_expandabbr_key = '<Leader>l'
 
 -- Use the system clipboard for yanked lines
 vim.o.clipboard = "unnamedplus"
