@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =0
+let g:netrw_dirhist_0='/home/amosmurmu'
+let g:netrw_dirhist_9='/home/amosmurmu/.android'
+let g:netrw_dirhist_8='/home/amosmurmu'
+let g:netrw_dirhist_7='/home/amosmurmu/.android'
+let g:netrw_dirhist_6='/home/amosmurmu'
+let g:netrw_dirhist_5='/home/amosmurmu/.android'
+let g:netrw_dirhist_4='/home/amosmurmu'
+let g:netrw_dirhist_3='/home'
+let g:netrw_dirhist_2='/home/amosmurmu'
+let g:netrw_dirhist_1='/home/amosmurmu/.tmux'
