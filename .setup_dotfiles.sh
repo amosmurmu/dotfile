@@ -24,5 +24,7 @@ stow -v -t "$HOME" -d "$DOTFILES_DIR" ideavimrc
 # Stow Tmux configuration
 stow -v -t "$HOME" -d "$DOTFILES_DIR" tmux
 
+# Stowing nvim to .config dir 
+stow -v -t ~/.config/ -d "$DOTFILES_DIR" nvim 
 echo "Dotfiles setup complete!"
 
