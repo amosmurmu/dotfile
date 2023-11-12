@@ -24,7 +24,7 @@ set noshowmode
 set so=5
 set incsearch
 set nu
-set clipboard=ideaput
+set clipboard=unnamedplus
 set ideastatusicon=enabled
 """ Idea specific settings ------------------
 set ideajoin
@@ -70,6 +70,12 @@ map <leader>o <Action>(FileStructurePopup)
 
 imap jk <Esc>
 imap kj <Esc>
+
+" Map leader+w to write to a file
+nnoremap <leader>w :w<CR>
+
+" Map leader+q to quit the file
+nnoremap <leader>q :q<CR>
 
 nnoremap <Alt>h ^
 nnoremap <Alt>l $
