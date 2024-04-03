@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Specify the directory containing your dotfiles
-DOTFILES_DIR="~/dotfile"
+DOTFILES_DIR="$HOME/dotfile"
 
 # Check if stow is installed
 if ! command -v stow &> /dev/null; then
